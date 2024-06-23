@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight Silksong</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+</head>
+
+<body>
+    <nav class="navbar" id="navbar" data-os="fade-up">
+        <div class="navbar__list">
+            <ul>
+                <li>
+                    <img src="imgs/Hornet.png" alt="rosto da personagem principal" id="list__img"></img>
+                    <a href="#page__home-page" class="list__text" onclick="(click_Ancora(1))">Início</a>
+                </li>
+                <li>
+                    <a href="#page__conteudo" class="list__text" onclick="(click_Ancora(2))">Sobre</a>
+                </li>
+                <li>
+                    <a href="#page__rodape" class="list__text" onclick="(click_Ancora(3))">Plataformas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container principal" id="page__home-page" data-os="fade-up">
+        <div class="principal__itens">
+            <img src="imgs/Silksonk logo.png" alt="Logo do jogo" class="itens__img">
+
+            <div class="itens__">
+
+            </div>
+            <p class="itens__texto">Descubra um reino vasto e assombrado em Hollow Knight: Silksong! A sequência do
+                premiado jogo de ação e
+                aventura. Explore, lute e sobreviva enquanto sobe ao pico de uma terra governada pela seda e pela
+                música.
+            </p>
+
+            <div class="princiapl__buttons">
+                <a href="https://www.youtube.com/watch?v=yQxwbZsL14Y" class="princiapl__button btn_trailer">
+                    Assistir Trailer
+                </a>
+                <a href="https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/"
+                    class="princiapl__button btn_steam">
+                    <img src="imgs/Steam.png" alt="logo da steam">
+                    EM BREVE
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <section class="container secundario" id="page__conteudo" data-aos="fade-up">
+        <img src="imgs/Divisor.png" alt="Divisor de pagina" class="divisor">
+        <div class="secundario__textos">
+            <h1 class="textos__titulo">Torne-se a Princesa Cavaleiro</h1>
+            <p class="textos__text">Jogue como Hornet, princesa protetora de Hallownest, e aventure-se por um novo reino
+                governado pela seda
+                e
+                pela música! Capturada e trazida para este mundo desconhecido, Hornet deve combater inimigos e resolver
+                mistérios enquanto sobe numa peregrinação mortal até ao cume do reino.
+                <br>
+                <br>
+                Hollow Knight: Silksong é a sequência épica de Hollow Knight, o premiado jogo de ação e aventura. Como o
+                letal caçador Hornet, viaje para terras totalmente novas, descubra novos poderes, lute contra vastas
+                hordas
+                de insetos e feras e descubra segredos antigos ligados à sua natureza e ao seu passado. 
+            </p>
+        </div>
+        <div class="secundario__imgs">
+            <img src="imgs/image1.png" alt="">
+            <img src="imgs/image2.png" alt="">
+        </div>
+        <img src="imgs/Divisor.png" alt="Divisor de pagina" class="divisor">
+    </section>
+    <section class="container tercerio" id="page__rodape" data-aos="fade-up">
+        <h1 class="secundario__titulo">Disponível para </h1>
+        <div class="secundario__plataform">
+            <div class="plataform__imgs">
+                <img src="imgs/Xbox.png" alt="">
+                <p>Xbox</p>
+            </div>
+            <div class="plataform__imgs">
+                </img><img src="imgs/Playstation.png" alt="">
+                <p>Playstation</p>
+            </div>
+            <div class="plataform__imgs imgs__computador">
+                </img><img src="imgs/computador.png" alt="">
+                <p>Computador</p>
+            </div>
+            </img>
+        </div>
+
+        <div class="princiapl__buttons btn_terceiro">
+            <a href="https://www.youtube.com/watch?v=yQxwbZsL14Y" class="princiapl__button btn_trailer">
+                Assistir Trailer
+            </a>
+            <a href="https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/"
+                class="princiapl__button btn_steam">
+                <img src="imgs/Steam.png" alt="logo da steam">
+                EM BREVE
+            </a>
+        </div>
+    </section>
+
+    <script src="./scripts/navbar.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
